@@ -7,7 +7,7 @@
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
 
 }
@@ -83,6 +83,8 @@
 .nav-list{
     left: 0;
     width: 100%;
+    /* background-color: red; */
+    margin-top: 5rem;
 }
 .nav-list div{
     height: 3rem;
