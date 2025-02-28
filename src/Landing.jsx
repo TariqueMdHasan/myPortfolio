@@ -3,6 +3,7 @@ import './Landing.css'
 import Navbar from './component/Navbar'
 import Home from './component/Home'
 import Skills from './component/Skills'
+import Projects from './component/Projects'
 
 function Landing() {
   return (
@@ -11,6 +12,7 @@ function Landing() {
       <Navbar />
       <Home />
       <Skills />
+      <Projects />
       {/* hii */}
     </div>
   )

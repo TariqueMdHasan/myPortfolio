@@ -170,6 +170,8 @@ import angular from "../assets/skills/learning/angular.png";
 import ml from "../assets/skills/learning/ml.png";
 import reactNative from "../assets/skills/learning/reactNative.png";
 
+// have to bring versel
+
 function Skills() {
   const skills = [
     { title: "Frontend 🎨", images: [html, Css, javascript, Bootstrap, nextjs, react, tailwind, typescript] },

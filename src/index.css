@@ -22,6 +22,10 @@ body.light {
 
   /* card */
   --Card-bg: white;
+
+  /* project */
+  --project-hover: rgba(237, 175, 220, 0.895);
+  /* --project-hover: rgba(169, 234, 135, 0.757); */
 }
 
 /* dark theme */
@@ -32,7 +36,7 @@ body.dark {
 
   /* nav */
   --overlay-color: rgba(26, 25, 25, 0.517);
-  --nav-bg: black;
+  --nav-bg: rgba(0, 0, 0, 0.708);
   --theme-btn: rgb(45, 44, 44);
   --nav-hover-btn: rgb(93, 92, 92);
   --nav-open-btn: rgb(79, 78, 78);
@@ -41,4 +45,7 @@ body.dark {
 
   /* card */
   --Card-bg: black;
+
+  /* project */
+  --project-hover: rgba(0, 0, 0, 0.824);
 }
