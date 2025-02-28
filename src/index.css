@@ -9,26 +9,36 @@ body{
 body.light {
   --background-color: rgb(255, 219, 245) ;
   --text-color: black;
+  --opp-text-color: white;
 
   /* nav */
+  --overlay-color: rgba(255, 219, 245, 0.544);
   --nav-bg: rgba(119, 210, 233, 0.814);
   --theme-btn: rgb(193, 233, 250);
   --nav-hover-btn: rgb(231, 243, 244);
-  --nav-open-btn: rgb(251, 0, 180);
-  --nav-open-hover-btn: rgb(250, 103, 208);
+  --nav-open-btn: pink;
+  --nav-open-hover-btn: rgb(243, 138, 214);
   --navlist-hover: rgb(110, 235, 254);
+
+  /* card */
+  --Card-bg: white;
 }
 
 /* dark theme */
 body.dark {
   --background-color: rgb(26, 25, 25);
   --text-color: white;
+  --opp-text-color: black;
 
   /* nav */
+  --overlay-color: rgba(26, 25, 25, 0.517);
   --nav-bg: black;
   --theme-btn: rgb(45, 44, 44);
   --nav-hover-btn: rgb(93, 92, 92);
   --nav-open-btn: rgb(79, 78, 78);
   --nav-open-hover-btn: rgb(147, 147, 147);
   --navlist-hover: rgb(54, 54, 54);
+
+  /* card */
+  --Card-bg: black;
 }

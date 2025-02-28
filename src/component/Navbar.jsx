@@ -31,9 +31,9 @@ function Navbar() {
         {isOpen && (
           <motion.div
             className="Navbar"
-            initial={{ x: "-12rem" }} 
+            initial={{ x: "-20rem" }} 
             animate={{ x: "0rem" }} 
-            exit={{ x: "-12rem" }} 
+            exit={{ x: "-20rem" }} 
             transition={{ type: "tween", duration: 0.3 }}
           >
             <div>

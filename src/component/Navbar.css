@@ -1,8 +1,7 @@
 .Navbar{
-    width: 12rem;
+    width: 20rem;
     height: 100vh;
     background-color: var(--nav-bg);
-    /* margin-left: -80vw; */
     position: absolute;
     left: 0;
     z-index: 1000;
@@ -10,13 +9,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* border: 2px solid red; */
 
 }
 .theme-btn{
-    /* position: relative; */
-    /* display: none; */
-    /* top: 5rem; */
     position: absolute;
     left: 1rem;
     top: 1rem;
@@ -40,13 +35,12 @@
     position: fixed;
     height: 100vh;
     z-index: 999;
-    background-color: var(--background-color);
+    background-color: var(--overlay-color);
 }
 .Nav-Open-btn{
     position: fixed;
     top: 1rem;
     left: 1rem;
-    /* padding: 0px 5px; */
     width: 30px;
     height: 30px;
     background-color: var(--nav-open-btn);
@@ -58,6 +52,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 998;
 }
 .Nav-Open-btn:hover{
     background-color: var(--nav-open-hover-btn);
@@ -76,7 +71,6 @@
     background-color: var(--theme-btn);
     color: var(--text-color);
     border: none;
-    /* border-radius: 2px; */
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -87,14 +81,11 @@
     font-size: 10px;
 }
 .nav-list{
-    /* background-color: red; */
-    /* position: relative; */
     left: 0;
     width: 100%;
 }
 .nav-list div{
     height: 3rem;
-    /* border: 1px solid yellow; */
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;

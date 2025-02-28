@@ -1,0 +1,102 @@
+.Home{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    background-color: var(--background-color);
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Home p{
+    margin: 0;
+}
+
+.Home-card{
+    width: 90vw;
+    min-height: 80vh;
+    max-height: 95vh;
+    background-color: var(--Card-bg);
+    border-radius: 20px;
+    /* border: 2px solid var(--nav-open-hover-btn); */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Home-card-photo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Home-card-mybio{
+    width: 50%;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+
+}
+.Home-card-mybio p{
+    margin: 0 1rem;
+    text-align: justify;
+    font-size: small;
+    
+}
+.Home-card-mybio h2{
+    /* margin-bottom: 1rem; */
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+.Home-card-photo-container{
+    height: 30vh;
+    width: 30vh;
+    object-fit: contain;
+    background-color: var(--background-color);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.Home-card-photo-container img{
+    height: 100%;
+    width: 100%;
+}
+.Home-Download-btn{
+    width: 8rem;
+    font-family: "Roboto", sans-serif;
+    font-size: small;
+    padding: 3px 10px;
+    height: 1.5rem;
+    align-self: center;
+    margin-top: 10px;
+    background-color: var(--nav-open-btn);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+.Home-Download-btn:hover{
+    background-color: var(--nav-open-hover-btn);
+}
+
+@media (max-width: 992px) {
+    .Home-card{
+        flex-direction: column;
+    }
+    .Home-card-photo{
+        width: 100%;
+        height: 40%;
+    }
+    .Home-card-mybio{
+        width: 100%;
+        height: 60%;
+        /* background-color: yellow; */
+    }
+}
