@@ -1,0 +1,34 @@
+
+body{
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* light theme */
+body.light {
+  --background-color: rgb(255, 219, 245) ;
+  --text-color: black;
+
+  /* nav */
+  --nav-bg: rgba(119, 210, 233, 0.814);
+  --theme-btn: rgb(193, 233, 250);
+  --nav-hover-btn: rgb(231, 243, 244);
+  --nav-open-btn: rgb(251, 0, 180);
+  --nav-open-hover-btn: rgb(250, 103, 208);
+  --navlist-hover: rgb(110, 235, 254);
+}
+
+/* dark theme */
+body.dark {
+  --background-color: rgb(26, 25, 25);
+  --text-color: white;
+
+  /* nav */
+  --nav-bg: black;
+  --theme-btn: rgb(45, 44, 44);
+  --nav-hover-btn: rgb(93, 92, 92);
+  --nav-open-btn: rgb(79, 78, 78);
+  --nav-open-hover-btn: rgb(147, 147, 147);
+  --navlist-hover: rgb(54, 54, 54);
+}
