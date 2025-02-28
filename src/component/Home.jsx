@@ -4,7 +4,7 @@ import MyImage from '../assets/MyPhoto.png'
 
 function Home() {
   return (
-    <div className='Home'>
+    <div className='Home' id='home'>
         <div className='Home-card'>
             <div className='Home-card-photo'>
                 <div className='Home-card-photo-container'>

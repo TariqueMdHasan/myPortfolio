@@ -52,7 +52,9 @@ function Navbar() {
                     <div><p>Introduction</p></div>
                     <div><p>Skills</p></div>
                     <div><p>Projects</p></div>
-                    <div><p>Contacts</p></div>
+                    <div><p>Socials</p></div>
+                    <div><p>Forms</p></div>
+                    
                 
             </div>
           </motion.div>

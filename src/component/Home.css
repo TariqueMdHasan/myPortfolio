@@ -1,6 +1,7 @@
 .Home{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: auto;
     margin: 0;
     position: relative;
     background-color: var(--background-color);
@@ -16,7 +17,7 @@
 .Home-card{
     width: 90vw;
     min-height: 80vh;
-    max-height: 95vh;
+    max-height: auto;
     background-color: var(--Card-bg);
     border-radius: 20px;
     margin: 1rem 0 1rem 0;
@@ -33,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 1rem;
 }
 .Home-card-mybio{
     width: 50%;
@@ -82,6 +83,8 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     color: white;
+    margin: 1rem 0;
+    /* margin-bottom: 1rem; */
 }
 .Home-Download-btn:hover{
     background-color: var(--nav-open-hover-btn);

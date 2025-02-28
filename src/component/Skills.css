@@ -1,0 +1,77 @@
+.Skills{
+    width: 100vw;
+    height: auto;
+    /* border-top: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+}
+.Skills-container{
+    width: 87vw;
+    min-height: 80vh;
+    max-height: auto;
+    background-color: var(--Card-bg);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    /* flex-direction: column; */
+}
+
+.Skills-container h2{
+    font-family: "Roboto", sans-serif;
+    /* align-self: center; */
+}
+.Skills-container-kid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.skills-container-boxes{
+    height: auto;
+    width: auto;
+    /* border: 1px solid red; */
+    background-color: var(--background-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.skills-container-boxes div{
+    max-width: 15rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    gap: 1rem;
+    margin: 0 1rem 1rem 1rem;
+    justify-content: center;
+
+}
+.skills-container-boxes div img{
+    width: 4rem;
+    /* background-color: red; */
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.skills-container-boxes div img:hover{
+    background-color: white;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+.skills-container-boxes h3{
+    /* background-color: yellow; */
+    font-family: "Roboto", sans-serif;
+    font-size: larger;
+}
+@media (max-width: 992px) {
+    .Skills-container{
+        width: 84vw;
+    }
+}
