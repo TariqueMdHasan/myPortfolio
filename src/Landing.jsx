@@ -4,6 +4,7 @@ import Navbar from './component/Navbar'
 import Home from './component/Home'
 import Skills from './component/Skills'
 import Projects from './component/Projects'
+import Form from './component/Form'
 
 function Landing() {
   return (
@@ -13,6 +14,7 @@ function Landing() {
       <Home />
       <Skills />
       <Projects />
+      <Form />
       {/* hii */}
     </div>
   )

@@ -102,4 +102,5 @@
 }
 .nav-list div p{
     margin-left: 1rem;
+    color: var(--text-color);
 }
