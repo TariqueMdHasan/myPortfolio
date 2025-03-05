@@ -1,0 +1,40 @@
+.GitHubContributions{
+    width: 100vw;
+    height: 60vh;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.GitHubContributions-container{
+    width: 90vw;
+    height: 50vh;
+    background-color: var(--Card-bg);
+    border-radius: 10px;
+    font-display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    /* margin: auto; */
+}
+.github-repo{
+    font-display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 95%;
+    width: 95%; */
+    padding: 0 1rem;
+    font-family: "Roboto", sans-serif;
+
+}
+.github-h2{
+    height: auto;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+

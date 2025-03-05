@@ -1,0 +1,28 @@
+.Contacts{
+    height: 30vh;
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contacts-container{
+    width: 90%;
+    height: 20vh;
+    background-color: var(--Card-bg);
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.Contacts-container img{
+    width: 60px;
+    height: 60px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.Contacts-container img:hover{
+    transform: scale(1.1);
+}
+

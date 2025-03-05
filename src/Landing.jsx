@@ -5,6 +5,8 @@ import Home from './component/Home'
 import Skills from './component/Skills'
 import Projects from './component/Projects'
 import Form from './component/Form'
+import Contacts from './component/Contacts'
+import GitHubContributions from './component/GitHubContributions'
 
 function Landing() {
   return (
@@ -15,6 +17,8 @@ function Landing() {
       <Skills />
       <Projects />
       <Form />
+      <Contacts />
+      <GitHubContributions />
       {/* hii */}
     </div>
   )
