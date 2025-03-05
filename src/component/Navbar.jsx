@@ -136,13 +136,13 @@ function Navbar() {
             </motion.div>
 
 
-            <div className="nav-list">
+            {/* <div className="nav-list">
               {["Home", "Introduction", "Skills", "Projects", "Socials", "Forms"].map((item, index) => (
                 <motion.div key={index} variants={itemVariants}>
                   <p>{item}</p>
                 </motion.div>
               ))}
-            </div>
+            </div> */}
           </motion.div>
         )}
       </AnimatePresence>
