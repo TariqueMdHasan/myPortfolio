@@ -20,6 +20,8 @@
     /* margin: auto; */
 }
 .github-repo{
+    height: auto;
+    width: auto;
     font-display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,8 +30,12 @@
     width: 95%; */
     padding: 0 1rem;
     font-family: "Roboto", sans-serif;
+    /* background-color: red; */
 
 }
+/* .git-div{
+    
+} */
 .github-h2{
     height: auto;
     width: 100%;
