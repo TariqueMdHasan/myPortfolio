@@ -76,7 +76,7 @@ function Home() {
             onClick={() => {
               const link = document.createElement("a");
               link.href = Resume;
-              link.download = "MdTariqueHasan.pdf"; // File name for the download
+              link.download = "MdTariqueHasan.pdf";
               document.body.appendChild(link);
               link.click();
               document.body.removeChild(link);
