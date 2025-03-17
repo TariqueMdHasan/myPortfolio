@@ -66,7 +66,7 @@ function Home() {
             📩 <strong>Let's connect!</strong>
             <a className="Linkedin-home" href="https://www.linkedin.com/in/tariquemdhasan/" target="_blank" rel="noopener noreferrer">Linkedin</a>
             <a className="Linkedin-home" href="mailto:md.th.abdi@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
-            <a className="Linkedin-home" href="tel:+917300370818" target="_blank" rel="noopener noreferrer">📞 Call Me</a>
+            <a className="Linkedin-home" href="tel:+917300370818" target="_blank" rel="noopener noreferrer">📞</a>
           </motion.p>
           <motion.button
             className="Home-Download-btn"
