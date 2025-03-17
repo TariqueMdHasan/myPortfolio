@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./Projects.css";
-import Portfolio from '../assets/ProjectsPhoto/portfolioweb.jpg'
-import blogweb from '../assets/ProjectsPhoto/blogweb.jpg'
-import taskify from '../assets/ProjectsPhoto/taskify.jpg'
+import Portfolio from "../assets/ProjectsPhoto/portfolioweb.jpg";
+import blogweb from "../assets/ProjectsPhoto/blogweb.jpg";
+import taskify from "../assets/ProjectsPhoto/taskify.jpg";
 
 import mongodb from "../assets/skills/backend/mongodb.png";
 import nodejs from "../assets/skills/backend/nodejs.png";
@@ -23,24 +23,30 @@ const projects = [
     name: "Portfolio Website",
     tech: [react, git, github, Css],
     image: Portfolio,
-    description: "A personal portfolio built with React.js and CSS, featuring smooth animations, dark mode toggle, and responsive design to showcase projects and skills.",
+    description:
+      "A personal portfolio built with React.js and CSS, featuring smooth animations, dark mode toggle, and responsive design to showcase projects and skills.",
     link: "https://tariquehasan.vercel.app/",
+    githubLink: "https://github.com/TariqueMdHasan/myPortfolio",
   },
   {
     id: 2,
     name: "Task Manager App",
     tech: [mongodb, nodejs, express, react, jwt, git, github, Css],
-    image:  taskify,
-    description: "A full-stack MERN Task Manager app that allows users to create, update, and delete tasks with authentication, JWT-based security, and a modern UI for better task management.",
+    image: taskify,
+    description:
+      "A full-stack MERN Task Manager app that allows users to create, update, and delete tasks with authentication, JWT-based security, and a modern UI for better task management.",
     link: "https://taskify-delta-three.vercel.app/",
+    githubLink: "https://github.com/TariqueMdHasan/TASKIFY",
   },
   {
     id: 3,
     name: "Blogging Platform",
     tech: [mongodb, nodejs, express, react, cloudinary, jwt, git, github, Css],
     image: blogweb,
-    description: "A feature-rich blogging website built using the MERN stack, supporting user authentication, post creation with Cloudinary image uploads, comments, and a clean, responsive UI.",
+    description:
+      "A feature-rich blogging website built using the MERN stack, supporting user authentication, post creation with Cloudinary image uploads, comments, and a clean, responsive UI.",
     link: "https://bloggedd.vercel.app/",
+    githubLink: "https://github.com/TariqueMdHasan/Blogged",
   },
 ];
 
@@ -59,32 +65,41 @@ const Projects = () => {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
           >
-            {/* Project Name */}
-            {/* <h3 className="project-name">{project.name}</h3> */}
-
-            {/* Project Image */}
-            <img src={project.image} alt={project.name} className="project-image" />
+            <img
+              src={project.image}
+              alt={project.name}
+              className="project-image"
+            />
             <h3 className="project-name">{project.name}</h3>
 
-            {/* Technology Used */}
             <div className="project-tech-container">
-                {project.tech.map((image, index) => (
-                    <div className="project-tech" key={index}>
-                    <img src={image} alt="Technology Used" />
-                    </div>
-                ))}
+              {project.tech.map((image, index) => (
+                <div className="project-tech" key={index}>
+                  <img src={image} alt="Technology Used" />
+                </div>
+              ))}
             </div>
 
-
-            {/* Overlay for description */}
             <motion.div
               className="project-overlay"
-              initial={{ opacity: 0, y: 16 }} // Start 1rem (16px) below
-              whileHover={{ opacity: 1, y: 0 }} // Slide up smoothly
+              initial={{ opacity: 0, y: 16 }}
+              whileHover={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3 }}
             >
               <p className="project-description">{project.description}</p>
-              <p className="project-description"><strong>Click any where to to go to the project</strong></p>
+              <p className="project-description">
+                <strong>Click any where to to go to the project</strong>
+              </p>
+              <button
+                className="github-button"
+                onClick={(e) => {
+                  e.stopPropagation(); 
+                  window.open(project.githubLink, "_blank"); 
+                }}
+              >
+                <img src={github} alt="GitHub" className="github-icon" />
+                View on GitHub
+              </button>
             </motion.div>
           </motion.div>
         ))}
@@ -94,6 +109,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-
-

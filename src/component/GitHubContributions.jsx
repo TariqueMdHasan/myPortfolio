@@ -9,10 +9,7 @@ const GitHubContributions = () => {
                     <h2>My GitHub Contributions</h2>
                 </div>
                 <div className="github-repo">
-                    
-                    {/* <div className="git-div"> */}
                         <GitHubCalendar username="TariqueMdHasan" />
-                    {/* </div> */}
                 </div>
             </div>
         </div>

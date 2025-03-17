@@ -5,7 +5,6 @@ import JavaScript from '../assets/Certificates/JavaScript.jpg'
 import WebDesign from '../assets/Certificates/WebDesign.jpg'
 import Frontend from '../assets/Certificates/Frontend.jpg'
 import { motion } from "framer-motion";
-// import { BsArrowUpRight } from "react-icons/bs";
 import { BsFillArrowUpRightSquareFill } from "react-icons/bs";
 
 function Certificates() {
@@ -27,13 +26,14 @@ function Certificates() {
             image: WebDesign,
             name: WebDesign,
             CName: 'Responsive Web Design',
-            url: "https://www.linkedin.com/in/tariquemdhasan/details/certifications/1733668211457/single-media-viewer/?profileId=ACoAAEYGB3ABO7TPRbD78AQVPuc3LIrqNzTYIcI"
+            url: "https://www.freecodecamp.org/certification/tariquemdhasan/responsive-web-design"
+            
         },
         {
             image: Frontend,
             name: Frontend,
             CName: "FrontEnd",
-            url: "https://www.freecodecamp.org/certification/tariquemdhasan/responsive-web-design"
+            url: "https://www.linkedin.com/in/tariquemdhasan/details/certifications/1733668211457/single-media-viewer/?profileId=ACoAAEYGB3ABO7TPRbD78AQVPuc3LIrqNzTYIcI"
         },
     ]
 

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import "./Skills.css";
 
-// Import all images as you have done
+
 import Bootstrap from "../assets/skills/frontend/bootstrap.png";
 import Css from "../assets/skills/frontend/css-3.png";
 import html from "../assets/skills/frontend/html.png";
@@ -40,17 +40,8 @@ import angular from "../assets/skills/learning/angular.png";
 import ml from "../assets/skills/learning/ml.png";
 import reactNative from "../assets/skills/learning/reactNative.png";
 
-// have to bring versel
-
 function Skills() {
-  // const skills = [
-  //   { title: "Frontend 🎨", images: [html, Css, javascript, Bootstrap, nextjs, react, tailwind, typescript] },
-  //   { title: "Backend ⚙️", images: [nodejs, express, mongodb, jwt, postgre, api] },
-  //   { title: "Tools & DevOps 🛠️", images: [git, github, cloudinary, gitlab, postman, vscode] },
-  //   { title: "Languages 👨🏻‍💻", images: [c, Cpp, python, javascript] },
-  //   { title: "Other Skills 🚀", images: [a11y, dsa, redux] },
-  //   { title: "Learning", images: [ai, angular, ml, reactNative] },
-  // ];
+  
 
   const skills = [
     {

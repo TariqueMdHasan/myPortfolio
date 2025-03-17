@@ -23,7 +23,8 @@ function Navbar() {
     Projects: '/Projects',
     Contact: '/contact',
     Connect: '/Connect',
-    Certificates: '/Certificates'
+    Certificates: '/Certificates',
+    GitHubContributions: '/GitHubContributions'
   }
 
 
@@ -64,7 +65,7 @@ function Navbar() {
 
 
             <div className="nav-list">
-              {["Home", "Introduction","Skills", "Projects", "Certificates", "Contact", "Connect"].map((item, index) => (
+              {["Home", "Introduction","Skills", "Projects", "Certificates", "GitHubContributions", "Contact", "Connect"].map((item, index) => (
                 <motion.div 
                   key={index} 
                   variants={itemVariants}

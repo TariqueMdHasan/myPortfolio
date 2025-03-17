@@ -3,13 +3,12 @@ body{
   margin: 0;
   background-color: var(--background-color);
   color: var(--text-color);
-  /* overflow: hidden; */
-  overflow: auto; /* Allows scrolling */
-  scrollbar-width: none; /* Hides scrollbar for Firefox */
-  -ms-overflow-style: none; /* Hides scrollbar for IE/Edge */
+  overflow: auto; 
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 body::-webkit-scrollbar, html::-webkit-scrollbar {
-  display: none; /* Hides scrollbar for Chrome, Safari */
+  display: none;
 }
 
 /* light theme */
@@ -32,7 +31,6 @@ body.light {
 
   /* project */
   --project-hover: rgba(237, 175, 220, 0.895);
-  /* --project-hover: rgba(169, 234, 135, 0.757); */
 }
 
 /* dark theme */

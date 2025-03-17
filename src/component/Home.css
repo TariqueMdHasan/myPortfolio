@@ -5,7 +5,6 @@
     margin: 0;
     position: relative;
     background-color: var(--background-color);
-    /* background-color: red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,8 +20,6 @@
     background-color: var(--Card-bg);
     border-radius: 20px;
     margin: 1rem 0 1rem 0;
-    /* border: 2px solid var(--nav-open-hover-btn); */
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -52,7 +49,6 @@
     
 }
 .Home-card-mybio h2{
-    /* margin-bottom: 1rem; */
     margin: 1rem 0 10px 0;
     text-align: center;
 }
@@ -84,7 +80,6 @@
     transition: all 0.3s ease-in-out;
     color: white;
     margin: 1rem 0;
-    /* margin-bottom: 1rem; */
 }
 .Home-Download-btn:hover{
     background-color: var(--nav-open-hover-btn);
@@ -97,6 +92,7 @@
     border-radius: 2px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    margin-left: 10px;
 }
 .Linkedin-home:hover{
     background-color: var(--nav-open-hover-btn);
@@ -113,7 +109,6 @@
     .Home-card-mybio{
         width: 100%;
         height: 60%;
-        /* background-color: yellow; */
     }
 }
 

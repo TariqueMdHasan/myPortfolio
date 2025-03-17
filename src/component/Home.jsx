@@ -57,19 +57,17 @@ function Home() {
             Cloudinary, DSA
           </motion.p>
           <motion.p variants={itemVariants}>
-            🚀 Currently, I'm working on{" "}
+            🚀 Currently, I'm working on
             <strong>building standout projects</strong> that showcase my skills
             and help me grow as a developer. Looking for opportunities where I
             can contribute, learn, and make an impact!
           </motion.p>
           <motion.p variants={itemVariants}>
-            📩 <strong>Let's connect!</strong>{" "}
-            <a className="Linkedin-home" href="https://www.linkedin.com/in/tariquemdhasan/">Linkedin</a>{" "}
+            📩 <strong>Let's connect!</strong>
+            <a className="Linkedin-home" href="https://www.linkedin.com/in/tariquemdhasan/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+            <a className="Linkedin-home" href="mailto:md.th.abdi@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+            <a className="Linkedin-home" href="tel:+917300370818" target="_blank" rel="noopener noreferrer">📞 Call Me</a>
           </motion.p>
-
-          {/* <motion.button className="Home-Download-btn" variants={itemVariants}>
-            Download
-          </motion.button> */}
           <motion.button
             className="Home-Download-btn"
             variants={itemVariants}

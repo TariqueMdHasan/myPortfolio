@@ -12,7 +12,6 @@
     background-color: var(--Card-bg);
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
     gap: 1rem;
@@ -20,7 +19,6 @@
     margin-top: 5rem;
     padding-bottom: 3rem;
     font-family: "Roboto", sans-serif;
-    /* padding-top: 3rem; */
 }
 .certificate-container h2{
     margin: 1rem 0 0 0;
@@ -30,7 +28,6 @@
     height: auto;
     background-color: var(--Card-bg);
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;

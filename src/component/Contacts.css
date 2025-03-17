@@ -1,7 +1,6 @@
 .Contacts{
     height: 30vh;
     width: 100vw;
-    /* background-color: red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +9,6 @@
     width: 90%;
     height: 20vh;
     background-color: var(--Card-bg);
-    /* background-color: yellow; */
     display: flex;
     justify-content: center;
     align-items: center;

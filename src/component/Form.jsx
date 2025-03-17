@@ -11,10 +11,10 @@ const Form = () => {
 
     emailjs
       .sendForm(
-        "service_1ull197", // Replace with your EmailJS Service ID
-        "template_ooofskg", // Replace with your EmailJS Template ID
+        "service_1ull197", 
+        "template_ooofskg",
         form.current,
-        "vnRJmGO3q1sPP1ksZ" // Replace with your EmailJS Public Key
+        "vnRJmGO3q1sPP1ksZ" 
       )
       .then(
         (result) => {

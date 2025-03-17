@@ -17,7 +17,6 @@
     justify-content: center;
     font-family: "Roboto", sans-serif;
     align-items: center;
-    /* margin: auto; */
 }
 .github-repo{
     height: auto;
@@ -26,20 +25,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 95%;
-    width: 95%; */
     padding: 0 1rem;
     font-family: "Roboto", sans-serif;
-    /* background-color: red; */
-
 }
-/* .git-div{
-    
-} */
 .github-h2{
     height: auto;
     width: 100%;
-    /* background-color: red; */
     display: flex;
     justify-content: center;
 }

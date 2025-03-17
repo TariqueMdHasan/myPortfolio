@@ -12,14 +12,11 @@ import Skills from './component/Skills'
 import Projects from './component/Projects'
 import Form from './component/Form'
 import Connect from './component/Contacts'
-// import GitHubContributions from './component/GitHubContributions'
+import GitHubContributions from './component/GitHubContributions'
 import Certificates from './component/Certificates'
 
 function App() {
   return (
-    // <div>
-    //   <Landing />
-    // </div>
     <Router>
       < Navbar />
       <Routes>
@@ -29,7 +26,7 @@ function App() {
         <Route path='/Projects' element={<Projects />} />
         <Route path='/contact' element={<Form />} />
         <Route path='/Connect' element={<Connect />} />
-        {/* <Route path='/' element={<Landing />} /> */}
+        <Route path='/GitHubContributions' element={<GitHubContributions />} />
         <Route path='/Certificates' element={<Certificates />} />
       </Routes>
     </Router>
