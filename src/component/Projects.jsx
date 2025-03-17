@@ -1,24 +1,3 @@
-// import React from 'react'
-// import './Projects.css'
-
-// function Projects() {
-//   return (
-//     <div className='Projects'>
-//         <div>
-
-//         </div>
-//     </div>
-//   )
-// }
-
-// export default Projects
-
-
-
-
-
-
-
 import React from "react";
 import { motion } from "framer-motion";
 import "./Projects.css";
@@ -81,10 +60,11 @@ const Projects = () => {
             transition={{ duration: 0.5, delay: index * 0.2 }}
           >
             {/* Project Name */}
-            <h3 className="project-name">{project.name}</h3>
+            {/* <h3 className="project-name">{project.name}</h3> */}
 
             {/* Project Image */}
             <img src={project.image} alt={project.name} className="project-image" />
+            <h3 className="project-name">{project.name}</h3>
 
             {/* Technology Used */}
             <div className="project-tech-container">

@@ -3,6 +3,13 @@ body{
   margin: 0;
   background-color: var(--background-color);
   color: var(--text-color);
+  /* overflow: hidden; */
+  overflow: auto; /* Allows scrolling */
+  scrollbar-width: none; /* Hides scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hides scrollbar for IE/Edge */
+}
+body::-webkit-scrollbar, html::-webkit-scrollbar {
+  display: none; /* Hides scrollbar for Chrome, Safari */
 }
 
 /* light theme */

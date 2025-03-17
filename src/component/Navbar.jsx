@@ -1,88 +1,3 @@
-// import { IoMenu } from "react-icons/io5";
-// import { ImCross } from "react-icons/im";
-// import { IoMdSunny } from "react-icons/io";
-// import { MdDarkMode } from "react-icons/md";
-
-
-
-
-
-
-// import React, { useState } from "react";
-// import "./Navbar.css";
-// import { useTheme } from "../ThemeCotext";
-// import { motion, AnimatePresence } from "framer-motion"; 
-
-
-// function Navbar() {
-//   const [isOpen, setIsOpen] = useState(false);
-//   const { theme, toggleTheme } = useTheme();
-
-//   return (
-//     <div>
-//       {isOpen && (
-//         <div
-//           onClick={() => setIsOpen(false)}
-//           className="Nav-overlay"
-//         ></div>
-//       )}
-
-//       <AnimatePresence>
-//         {isOpen && (
-//           <motion.div
-//             className="Navbar"
-//             initial={{ x: "-20rem" }} 
-//             animate={{ x: "0rem" }} 
-//             exit={{ x: "-20rem" }} 
-//             transition={{ type: "tween", duration: 0.3 }}
-//           >
-//             <div>
-//             <button
-//                 className="Nav-Close-btn"
-//              onClick={() => setIsOpen(false)}><ImCross /></button>
-//             <button onClick={toggleTheme} className="theme-btn">
-//               {theme === "light" ? <MdDarkMode /> : <IoMdSunny />
-
-//               }
-//             </button>
-//             </div>
-//             <div className="nav-list">
-                
-//                     <div><p>Home</p></div>
-//                     <div><p>Introduction</p></div>
-//                     <div><p>Skills</p></div>
-//                     <div><p>Projects</p></div>
-//                     <div><p>Socials</p></div>
-//                     <div><p>Forms</p></div>
-                    
-                
-//             </div>
-//           </motion.div>
-//         )}
-//       </AnimatePresence>
-
-
-        
-
-//       {!isOpen && (
-        
-//             <button 
-//             className="Nav-Open-btn"
-            
-//             onClick={() => setIsOpen(true)}><IoMenu /></button>
-        
-//       )}
-//     </div>
-//   );
-// }
-
-// export default Navbar;
-
-
-
-
-
-
 
 
 import { IoMenu } from "react-icons/io5";
@@ -94,10 +9,22 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { useTheme } from "../ThemeCotext";
 import { motion, AnimatePresence } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+  const navigate = useNavigate()
   const [isOpen, setIsOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
+
+  const navLinks = {
+    Home: '/',
+    Introduction: '/Introduction',
+    Skills: '/Skills',
+    Projects: '/Projects',
+    Contact: '/contact',
+    Connect: '/Connect',
+    Certificates: '/Certificates'
+  }
 
 
   const navbarVariants = {
@@ -136,13 +63,17 @@ function Navbar() {
             </motion.div>
 
 
-            {/* <div className="nav-list">
-              {["Home", "Introduction", "Skills", "Projects", "Socials", "Forms"].map((item, index) => (
-                <motion.div key={index} variants={itemVariants}>
+            <div className="nav-list">
+              {["Home", "Introduction","Skills", "Projects", "Certificates", "Contact", "Connect"].map((item, index) => (
+                <motion.div 
+                  key={index} 
+                  variants={itemVariants}
+                  onClick={()=> navigate(navLinks[item])}
+                >
                   <p>{item}</p>
                 </motion.div>
               ))}
-            </div> */}
+            </div>
           </motion.div>
         )}
       </AnimatePresence>

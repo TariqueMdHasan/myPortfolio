@@ -1,0 +1,18 @@
+.Bottom{
+    width: 100vw;
+    height: auto;
+    background-color: var(--Card-bg);
+    color: var(--text-color);
+    font-style: italic;
+    font-size: 11px;
+    
+}
+.Bottom p{
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+.Bottom p a{
+    margin-left: 10px;
+    color: var(--text-color);
+}

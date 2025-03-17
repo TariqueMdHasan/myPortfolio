@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import MyImage from "../assets/MyPhoto.png";
 import { motion } from "framer-motion";
-import Resume from '../assets/Resume/MdTariqueHasan.pdf';
+import Resume from '../assets/Resume/MdTariqueHasan_SDE1.pdf';
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -64,7 +64,7 @@ function Home() {
           </motion.p>
           <motion.p variants={itemVariants}>
             📩 <strong>Let's connect!</strong>{" "}
-            <a href="https://www.linkedin.com/in/tariquemdhasan/">Linkedin</a>{" "}
+            <a className="Linkedin-home" href="https://www.linkedin.com/in/tariquemdhasan/">Linkedin</a>{" "}
           </motion.p>
 
           {/* <motion.button className="Home-Download-btn" variants={itemVariants}>

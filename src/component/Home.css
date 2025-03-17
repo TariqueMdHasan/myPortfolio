@@ -89,6 +89,18 @@
 .Home-Download-btn:hover{
     background-color: var(--nav-open-hover-btn);
 }
+.Linkedin-home{
+    background-color: var(--nav-open-btn);
+    padding: 1px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.Linkedin-home:hover{
+    background-color: var(--nav-open-hover-btn);
+}
 
 @media (max-width: 992px) {
     .Home-card{
@@ -104,3 +116,4 @@
         /* background-color: yellow; */
     }
 }
+

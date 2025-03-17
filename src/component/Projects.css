@@ -1,253 +1,129 @@
-/* .Projects{
-    height: 100vh;
-    width: 100vw;
-    background-color: red;
-} */
-
-
-
-
-
-/* 
-
 .projects-container {
-    text-align: center;
-    min-height: 100vh;
-    height: auto;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    align-items: center;
-    margin-bottom: 10vh;
-  }
-  .projects-container h2{
-    font-family: "Roboto", sans-serif;
-  }
-  
-  .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 4rem;
-    justify-content: center;
-    max-width: 84vw;
-  }
-  
-  .project-card {
-    position: relative;
-    max-width: 30rem;
-    height: auto;
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-    background: var(--Card-bg);
-    padding: 0 10px;
-  }
-  
-  .project-card:hover {
-    transform: scale(1.05);
-  }
-  
-
-  .project-name {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px 0;
-    font-family: "Roboto", sans-serif;
-  }
-  
-
-  .project-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  
-  
-  .project-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background:  var(--project-hover);
-    color: var(--text-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  
-  .project-description {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-    transform: translateY(16px);
-  }
-  
-  .project-card:hover .project-overlay {
-    opacity: 1;
-  }
-  
-  .project-card:hover .project-description {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
-  .project-card:hover .project-name,
-  .project-card:hover .project-tech {
-    visibility: hidden;
-  }
-
-
-  .project-tech-container{
-    width: 90%;
-    height: auto;
-    background-color: red;
-  }
-   */
-
-
-
-
-
-
-
-   .projects-container {
-    text-align: center;
-    min-height: 100vh;
-    height: auto;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10vh;
+  text-align: center;
+  min-height: 100vh;
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
 }
-  
+
 .projects-container h2 {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-  
+
 .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 4rem;
-    justify-content: center;
-    max-width: 84vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 4rem;
+  justify-content: center;
+  max-width: 84vw;
 }
-  
+
 .project-card {
-    position: relative;
-    max-width: 30rem;
-    height: auto;
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-    background: var(--Card-bg);
-    padding: 0 10px;
-    text-align: center;
+  position: relative;
+  max-width: 30rem;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  background: var(--Card-bg);
+  /* padding: 0 10px; */
+  text-align: center;
 }
 
 .project-card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /* Project Name */
 .project-name {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px 0;
-    font-family: "Roboto", sans-serif;
-    transition: opacity 0.3s ease-in-out;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+  transition: opacity 0.3s ease-in-out;
 }
 
 /* Project Image */
 .project-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  /* border-radius: 10px; */
 }
 
 /* Tech Stack Container */
 .project-tech-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 10px;
-    margin-bottom: 1rem;
-    height: auto;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+  height: auto;
+  flex-wrap: wrap;
 }
 
 .project-tech {
-    min-width: 30px;
-    min-height: 30px;
-    max-width: 30px;
-    max-height: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  max-width: 30px;
+  max-height: 30px;
 }
 
 .project-tech img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: white;
+  border-radius: 2px;
 }
 
 /* Overlay */
 .project-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: var(--project-hover);
-    color: var(--text-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    /* padding: 20px; */
-    text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--project-hover);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  /* padding: 20px; */
+  text-align: center;
 }
 
 /* Animation for description */
 .project-description {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-    transform: translateY(16px);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transform: translateY(16px);
 }
 
 /* Show description with animation on hover */
 .project-card:hover .project-overlay {
-    opacity: 1;
+  opacity: 1;
 }
 
 .project-card:hover .project-description {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Fade out name & tech stack on hover */
 .project-card:hover .project-name,
 .project-card:hover .project-tech-container {
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
-
-
-

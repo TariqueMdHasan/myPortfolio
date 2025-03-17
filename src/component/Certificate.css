@@ -1,0 +1,84 @@
+.Certificates{
+    width: 100vw;
+    height: auto;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.certificate-container{
+    width: 87vw;
+    height: auto;
+    background-color: var(--Card-bg);
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+    font-family: "Roboto", sans-serif;
+    /* padding-top: 3rem; */
+}
+.certificate-container h2{
+    margin: 1rem 0 0 0;
+}
+.certificate-container-card{
+    width: 87vw;
+    height: auto;
+    background-color: var(--Card-bg);
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.Certificate-div{
+    max-width: 20rem;
+    height: auto;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    overflow: hidden;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    display: relative;
+}
+.Certificate-div img{
+    max-width: 100%;
+}
+.Certificate-div h3{
+    font-family: "Roboto", sans-serif;
+    margin: 1rem 0 1rem 0;
+    align-self: center;
+}
+.Certificate-div a{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    text-decoration:  none;
+    display: absolute;
+    right: 1rem;
+    background-color: var(--nav-open-btn) ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: all 0.2s ease-in-out;
+}
+.Certificate-div a:hover{
+    background-color: var(--nav-open-hover-btn);
+}
+.Certificate-div a p{
+    margin: 0;
+
+}

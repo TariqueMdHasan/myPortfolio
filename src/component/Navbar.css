@@ -2,7 +2,8 @@
     width: 20rem;
     height: 100vh;
     background-color: var(--nav-bg);
-    position: absolute;
+    position: fixed;
+    
     left: 0;
     z-index: 1000;
     display: flex;
